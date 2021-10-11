@@ -1,3 +1,8 @@
-html body{
-    background-color: ;
+#navbar{
+    margin-left: 33vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between ;
 }
