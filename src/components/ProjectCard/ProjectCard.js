@@ -1,10 +1,15 @@
 import React from "react";
 
 function ProjectCard (props) {
+
+  const imageStyle = {
+    width: "25vw"
+  }
+
   return ( 
     <div>
       <div>
-        <img alt={props.name} src={props.image} />
+        <img style={imageStyle} alt={props.name} src={props.image} />
       </div>
       <div>
         <ul>
