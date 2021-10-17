@@ -13,7 +13,7 @@
         "image": "https://raw.githubusercontent.com/nick-hernstedt/meal-mate/master/mealmate.png",
         "description": "Using Yelp API and a database to help 2 people decide where to have dinner.",
         "href": "https://meal-mate-1.herokuapp.com/",
-        "tags": ["HTML", "CSS", "JS", "API"]
+        "tags": ["HTML", "CSS", "JS", "API", "MYSQL"]
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "image": "https://raw.githubusercontent.com/Drubaloo/Burger/master/public/assets/images/preview.png",
         "description": "Using a Mongoose database to keep track of burgers I want to try and Have tried.", 
         "href": "https://bobs-burger-tracker.herokuapp.com/",
-        "tags": ["HTML", "CSS", "JS", "API"]
+        "tags": ["HTML", "CSS", "JS", "API", "MYSQL", "EXPRESS", "HANDLEBARS", "NODE"]
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "image": "https://raw.githubusercontent.com/Drubaloo/employee-directory/master/preview.png",
         "description": "Using React to create an employee directory for those who want to explore Middle Earth.",
         "href": "https://stoic-nightingale-5e3df6.netlify.app/",
-        "tags": ["HTML", "CSS", "JS", "API"]
+        "tags": ["HTML", "CSS", "JS", "REACT"]
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "image": "https://raw.githubusercontent.com/Drubaloo/Trivia-Quiz/master/assets/images/Screenshot.png",
         "description": "A short quiz to test myself in JavaScript and your knowledge of Batman.",
         "href": "https://drubaloo.github.io/Trivia-Quiz/",
-        "tags": ["HTML", "CSS", "JS", "API"]
+        "tags": ["HTML", "CSS", "JS"]
     },
     {
         "id": 6,
