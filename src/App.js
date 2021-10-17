@@ -20,9 +20,7 @@ function App() {
         </Route>
         <Route exact path="/portfolio">
         <Portfolio>
-        <Project>
-            
-        </Project>
+        <Project />
         </Portfolio>
         </Route>
       </div>
