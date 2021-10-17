@@ -13,7 +13,6 @@ function Navbar() {
         width: "45rem",
         justifyContent: "space-around",
         alignContent: "center",
-        // borderStyle: "dotted",
         listStyleType: "none",
         alignSelf: "center"
     }
@@ -21,7 +20,6 @@ function Navbar() {
     const itemStyle = {
         textDecoration: "none",
         color: "#000000",
-        
     }
 
     const activeStyle = {

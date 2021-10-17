@@ -7,26 +7,28 @@ import ProjectCard from '../components/ProjectCard/ProjectCard';
 function Portfolio() {
 
     const [projectState, setProjects] = useState(projectList)
-  
+
+    
     //filter through projects for specific technologies
     function findProject(tag) {
-
-        setProjects(projectList)
         
-        const projects = projectState.filter(data => {
+        //filter through JSON to get a clean run each time
+        const projects = projectList.filter(data => {
             for (let i = 0; i < data.tags.length; i++) {
-                if(data.tags[i] == tag){
+                if (data.tags[i] === tag) {
                     return true
-                } 
-            } 
+                }
+            } return setProjects(projectList)
         });
 
-       
+
+        //set state to new array, to be fed into child components
         setProjects(projects);
+
     };
 
 
-  
+
 
     const styleSheet = {
         display: "flex",
@@ -52,28 +54,28 @@ function Portfolio() {
         <div style={styleSheet}>
             <div style={col1}>
                 <h1>stack list</h1>
-                <button onClick={() => {findProject("HTML")}}>HTML</button>
-                <button onClick={() => {findProject("CSS")}}>CSS</button>
-                <button onClick={() => {findProject("JS")}}>JavaScript</button>
-                <button onClick={() => {findProject("API")}}>API</button>
-                <button onClick={() => {findProject("SQL")}}>SQL</button>
+                <button onClick={() => { findProject("HTML")}}>HTML</button>
+                <button onClick={() => { findProject("CSS")}}>CSS</button>
+                <button onClick={() => { findProject("JS")}}>JavaScript</button>
+                <button onClick={() => { findProject("API")}}>API</button>
+                <button onClick={() => { findProject("MYSQL")}}>SQL</button>
             </div>
             <div style={col2}>
                 <h1>projects</h1>
                 <div>
                     {projectState.map(project => (
-                    <ProjectCard
+                        <ProjectCard
 
-                        id={project.id}
-                        key={project.id}
-                        name={project.name}
-                        image={project.image}
-                        description={project.description}
-                        href={project.href}
+                            id={project.id}
+                            key={project.id}
+                            name={project.name}
+                            image={project.image}
+                            description={project.description}
+                            href={project.href}
 
-                    />
+                        />
 
-                ))}</div>
+                    ))}</div>
             </div>
         </div>
     )

@@ -21,7 +21,7 @@ function ProjectCard (props) {
           </li>
         </ul>
 
-        <a href={props.href} target="_blank" onClick={"return false"}><button>{props.name}</button></a>
+        <a href={props.href} target="_blank" rel="noreferrer"><button>{props.name}</button></a>
       </div>
           
     </div>
