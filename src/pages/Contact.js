@@ -17,10 +17,10 @@ function Contact() {
 
             <div>
                 <ul style={listStyle}>
-                <li><button>Github</button></li>
-                <li><button>LinkdIn</button></li>
-                <li><button>Email</button></li>
-                <li><button>Resume</button></li>
+                    <li><a href="https://github.com/Drubaloo" target="_blank" rel="norefferer"><button >Github</button></a></li>
+                    <li><a href="https://www.linkedin.com/in/dru-sanchez-465696194/" target="_blank" rel="norefferer"><button>LinkdIn</button></a></li>
+                    <li><a href="mailto:drubaloo@outlook.com" target="_blank" rel="norefferer"><button>Email</button></a></li>
+                    <li><a href="https://docs.google.com/document/d/1xRv2T5UMTBJSLEjiq6XIc3WAdm3oSwCPdVHcrL5s7MU/edit?usp=sharing" rel="norefferer"><button>Resume</button></a></li>
                 </ul>
             </div>
         </div>
