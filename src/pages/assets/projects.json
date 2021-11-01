@@ -46,5 +46,29 @@
         "description": "A simple weather app to make your day easier using a free API.",
         "href": "https://drubaloo.github.io/Weather-Dashboard/",
         "tags": ["HTML", "CSS", "JS", "API"]
+    }, 
+    {
+        "id": 7,
+        "name": "Team Profile Generator",
+        "image": "https://raw.githubusercontent.com/Drubaloo/team-profile-generator/master/preview.png",
+        "description": "Develop a team connections website using the command line.",
+        "href": "https://github.com/Drubaloo/team-profile-generator",
+        "tags": ["HTML", "CSS", "JS", "NODE", "JEST"]
+    }, 
+    {
+        "id": 8,
+        "name": "Bug Out",
+        "image": "https://bug-out-tracker.herokuapp.com/static/media/1iwcit1gidyy.1854803b.jpg",
+        "description": "A tool made to help a team track bugs",
+        "href": "https://bug-out-tracker.herokuapp.com/",
+        "tags": ["HTML", "CSS", "JS", "EXPRESS", "REACT", "MONGO"]
+    },
+    {
+        "id": 9,
+        "name": "Bug Out",
+        "image": "https://bug-out-tracker.herokuapp.com/static/media/1iwcit1gidyy.1854803b.jpg",
+        "description": "A tool made to help a team track bugs",
+        "href": "https://bug-out-tracker.herokuapp.com/",
+        "tags": ["HTML", "CSS", "JS", "EXPRESS", "REACT", "MONGO", "MONGOOSE", "AUTHENTICATION"]
     }
 ]
