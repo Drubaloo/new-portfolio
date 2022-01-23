@@ -5,16 +5,18 @@ function Navbar() {
 
     const navbarStyle = {
        display: "inline-flex",
-       fontSize: "2.3rem"
+       fontSize: "1.5rem",
+       flexWrap: "wrap"
     }
 
     const listStyle = {
         display: "inline-flex",
-        width: "45rem",
-        justifyContent: "space-around",
+        width: "86vw",
+        justifyContent: "space-evenly",
         alignContent: "center",
         listStyleType: "none",
-        alignSelf: "center"
+        alignSelf: "center",
+        // marginLeft: "12vw"
     }
 
     const itemStyle = {
@@ -27,12 +29,20 @@ function Navbar() {
         color: "purple"
     }
 
+    const checkActive = (match, location) => {
+        //some additional logic to verify you are in the home URI
+        if(!location) return false;
+        const {pathname} = location;
+        console.log(pathname);
+        return pathname === "/";
+    }
+
 
     return (
         <div className="navBar" style={navbarStyle}>
             <Logo />
             <ul style={listStyle}>
-            <li><NavLink style={itemStyle} to="/" activeStyle={activeStyle}>Home</NavLink></li>
+            <li><NavLink style={itemStyle} isActive={checkActive} to="/" activeStyle={activeStyle}>Home</NavLink></li>
             <li><NavLink style={itemStyle} to="/portfolio"activeStyle={activeStyle}>Portfolio</NavLink></li>
             <li><NavLink style={itemStyle} to="/contact" activeStyle={activeStyle}>Contact</NavLink></li>
             </ul>

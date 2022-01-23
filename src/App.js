@@ -9,23 +9,23 @@ import Contact from "./pages/Contact"
 
 function App() {
 
-  
 
-  
+
+
   return (
     <Router>
       <div className="flex-column">
         <Navbar />
-        <Route exact path="/">
-        <Home />
-        </Route>
         <Route exact path="/portfolio">
-        <Portfolio>
-        <Project />
-        </Portfolio>
+          <Portfolio>
+            <Project />
+          </Portfolio>
         </Route>
         <Route exact path="/contact">
           <Contact></Contact>
+        </Route>
+        <Route exact path="/">
+          <Home />
         </Route>
       </div>
     </Router>
